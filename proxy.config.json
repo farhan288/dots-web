@@ -1,0 +1,15 @@
+{
+    "context": [
+        "/api",
+        "/auth",
+        "/assets/apps/auth",
+        "/logout"
+    ],
+    "target": {
+        "host": "api.dots.local",
+        "protocol": "http:",
+        "port": 80
+    },
+    "changeOrigin": true,
+    "secure": false
+}
